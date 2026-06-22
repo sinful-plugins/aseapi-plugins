@@ -1,4 +1,8 @@
 # Sinful Plugins
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sinful-plugins/.github/main/resources/sinfulPlugins.svg" alt="Sinful Plugins" />
+</p>
 Free Ark: Survival Evolved server plugins.
 
 > [!NOTE]
@@ -7,6 +11,7 @@ Free Ark: Survival Evolved server plugins.
 > Plugins are tested on v3.56 of AseApi and pre-aquatica servers.
 
 # Currently available plugins
+
 - [**Lexicon**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/Lexicon) - Manage simple message reply commands and command aliases thru one plugin
 - [**PlayerInfo**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/PlayerInfo) - Exposes a player's in game info and allows display thru chat commands and rcon
 - [**WipeManager**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/WipeManager) - A simple wipe manager that wipes all but the admin's stuff, good for soft wipes
