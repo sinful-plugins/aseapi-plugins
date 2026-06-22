@@ -1,0 +1,74 @@
+{
+  "commands": [
+    {
+      "command": "/discord",
+      "responseType": "ClientChat",
+      "color": [1.0, 1.0, 1.0, 1.0],
+      "message": "https://bit.ly/rxp-discord",
+      "author": "Sinfuls [RXP] Cluster",
+      "permissions": ["Default"],
+      "aliases": ["/invite", "/dc"]
+    },
+    {
+      "command": "/rules",
+      "responseType": "ClientChat",
+      "color": [1.0, 1.0, 1.0, 1.0],
+      "message": "Basic Rules:\n1. No cheating.\n2. No meshing.\n3. Pick up your structures when you're done taming dinos.",
+      "author": "Sinfuls [RXP] Cluster",
+      "permissions": ["Default"],
+      "aliases": ["/rule"]
+    },
+    {
+      "command": "/info",
+      "responseType": "ClientChat",
+      "color": [1.0, 1.0, 1.0, 1.0],
+      "message": "\nWild dino max level: 300\nMax Tribe Members: 10\nDiscord: https://bit.ly/rxp-discord\nDonations: https://ko-fi.com/snflrx",
+      "author": "Sinfuls [RXP] Cluster",
+      "permissions": ["Default"],
+      "aliases": ["/information", "/serverinfo"]
+    },
+    {
+      "command": "/shop",
+      "responseType": "Notification",
+      "color": [1.0, 1.0, 1.0, 1.0],
+      "message": "F2 to open the shop!",
+      "author": "Sinfuls [RXP] Cluster",
+      "notification": {
+        "title": "Shop Information",
+        "duration": 7.5
+      },
+      "permissions": ["Default"],
+      "aliases": ["/kits", "/kit"]
+    },
+    {
+      "command": "/help",
+      "responseType": "ClientChat",
+      "color": [1, 1, 1, 1],
+      "message": "\n<RichColor Color=\"0, 1, 0, 1\">Available commands:</>\n/help - opens this command\n/discord - shows the discord invite link\n/donate - donate to me please\n/info - shows server info and settings\n/players - shows a list of all connected players\n/decay - shows structure/dino decay time\n/rules - shows the server rules\n/setColor - sets a dino's colors\n/playerUtils - shows player utility commands\n/dinoUtils - show dino utility commands\n\n All commands can be found at https://bit.ly/rxp-commands",
+      "author": "Sinfuls [RXP] Cluster",
+      "permissions": ["Default"],
+      "aliases": ["/commands"]
+    }
+  ],
+  "aliases": {
+    "/suicide": ["/kill", "/die", "/kms", "/respawn", "/killmyself"],
+    "/charWipe": ["/wipe", "mindwipe"],
+    "/dinoMindWipe": ["/dinoWipe", "/wipeDino"],
+    "/mateAOE": ["/startFucking"],
+    "/mateAOEstop": ["/stopFucking"],
+    "/wakeTFup": ["/wake"],
+    "/rename": ["/rn"],
+    "/renametribe": ["/rnt"],
+    "/bags": ["/deathbag"],
+    "/setcolor": ["/sc"],
+    "/decay": ["/dt"],
+    "/structurelimits": ["/sl", "/structures"],
+    "/wm.wipeExcept": ["/adminWipeServer"],
+    "/wm.wipeDinos": ["/adminWipeDinos"],
+    "/wm.wipeCharacters": ["/adminWipeChars"],
+    "/wm.wipeStructures": ["/adminWipeStructures"]
+  },
+  "errorMessages": {
+    "noPermission": "You do not have the permission to use this command!"
+  }
+}

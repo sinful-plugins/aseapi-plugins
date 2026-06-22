@@ -1,0 +1,140 @@
+{
+  "placeholders": {
+    "{charName}": "Unknown",
+    "{tribeName}": "?",
+    "{tribeId}": "?",
+    "{steamId}": "?",
+    "{playerId}": "?"
+  },
+  "chatCommands": {
+    "/players": {
+      "scope": "map",
+      "format": "{charName}",
+      "delimiter": ", ",
+      "reply": "Players Online:\n{format}",
+      "author": "Sinfuls [RXP] Cluster",
+      "responseType": "ClientChat",
+      "permissions": ["Default"],
+      "defaultResponse": "No Players Online",
+      "aliases": ["/online", "/who"]
+    },
+    "/steamIds": {
+      "scope": "map",
+      "format": "{charName} [{tribeName}]: {steamId}",
+      "delimiter": "\n",
+      "reply": "Player SteamIds:\n{format}",
+      "author": "Sinfuls [RXP] Cluster",
+      "responseType": "ClientChat",
+      "permissions": ["Admins"],
+      "defaultResponse": "No Players Online",
+      "aliases": ["/sids"]
+    },
+    "/playerTribes": {
+      "scope": "map",
+      "format": "{charName}: {tribeName}",
+      "delimiter": "\n",
+      "reply": "Player Tribes:\n{format}",
+      "author": "Sinfuls [RXP] Cluster",
+      "responseType": "ClientChat",
+      "permissions": ["Admins"],
+      "defaultResponse": "No Players Online",
+      "aliases": ["/tribes"]
+    },
+    "/whoami": {
+      "scope": "player",
+      "format": "{charName} of tribe \"{tribeName}\"",
+      "delimiter": "",
+      "reply": "{format}",
+      "author": "Sinfuls [RXP] Cluster",
+      "responseType": "ClientChat",
+      "permissions": ["Default"],
+      "defaultResponse": "Error Fetching Info",
+      "aliases": ["/myInfo"]
+    },
+    "/tribeInfo": {
+      "scope": "player",
+      "format": "Tribe: {tribeName} ({tribeId})",
+      "delimiter": "",
+      "reply": "{format}",
+      "author": "Sinfuls [RXP] Cluster",
+      "responseType": "ClientChat",
+      "permissions": ["Default"],
+      "defaultResponse": "You Are Not In A Tribe!",
+      "aliases": ["/myTribe"]
+    }
+  },
+  "rconCommands": {
+    "getAllPlayerTribeNames": {
+      "arguments": [],
+      "scope": "map",
+      "format": "{charName} [{steamId}]: {tribeName}",
+      "formatType": "text",
+      "delimiter": "\n",
+      "reply": "{format}\n\n",
+      "defaultResponse": "No Players Online"
+    },
+    "getAllPlayerTribeIds": {
+      "arguments": [],
+      "scope": "map",
+      "format": "{charName} [{steamId}]: {tribeId}",
+      "formatType": "text",
+      "delimiter": "\n",
+      "reply": "{format}\n\n",
+      "defaultResponse": "No Players Online"
+    },
+    "getAllPlayerTribeInfos": {
+      "arguments": [],
+      "scope": "map",
+      "format": "{charName} [{steamId}]: {tribeName} ({tribeId})",
+      "formatType": "text",
+      "delimiter": "\n",
+      "reply": "{format}\n\n",
+      "defaultResponse": "No Players Online"
+    },
+    "getAllPlayerInfos": {
+      "arguments": [],
+      "scope": "map",
+      "format": "{\"charName\": \"{charName}\", \"steamId\": \"{steamId}\", \"tribeName\": \"{tribeName}\", \"tribeId\": \"{tribeId}\", \"playerId\": \"{playerId}\"}",
+      "formatType": "json",
+      "delimiter": ", ",
+      "reply": "[{format}]\n\n",
+      "defaultResponse": "No Players Online"
+    },
+    "getPlayerTribe": {
+      "arguments": ["{steamId}"],
+      "scope": "player",
+      "format": "Tribe: {tribeName}",
+      "formatType": "text",
+      "delimiter": "",
+      "reply": "{format}\n\n",
+      "defaultResponse": "Player not found or not in a tribe."
+    },
+    "getPlayerTribeId": {
+      "arguments": ["{steamId}"],
+      "scope": "player",
+      "format": "Tribe ID: {tribeId}",
+      "formatType": "text",
+      "delimiter": "",
+      "reply": "{format}\n\n",
+      "defaultResponse": "Player not found or not in a tribe."
+    },
+    "getPlayerTribeInfo": {
+      "arguments": ["{steamId}"],
+      "scope": "player",
+      "format": "Tribe: {tribeName} ({tribeId})",
+      "formatType": "text",
+      "delimiter": "",
+      "reply": "{format}\n\n",
+      "defaultResponse": "Player not found or not in a tribe."
+    },
+    "getPlayerInfos": {
+      "arguments": ["{steamId}"],
+      "scope": "player",
+      "format": "{\"charName\": \"{charName}\", \"steamId\": \"{steamId}\", \"tribeName\": \"{tribeName}\", \"tribeId\": \"{tribeId}\", \"playerId\": \"{playerId}\"}",
+      "formatType": "json",
+      "delimiter": ", ",
+      "reply": "{format}\n\n",
+      "defaultResponse": "Player not found or not in a tribe."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "destroyPerTick": 500,
+  "tickInterval": 1,
+  "saveBeforeWipe": true,
+  "allowedGroups": ["Admins"],
+  "ignoredGroups": ["Admins"]
+}
