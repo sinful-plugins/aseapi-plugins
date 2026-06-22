@@ -3,6 +3,26 @@
 - Add simple single response chat commands
 - Manage command aliases
 
+---
+
+# Lexicon Commands
+
+- Console:
+
+```text
+Lexicon.reload - reload Lexicon, updating the config in the process
+```
+
+- RCON:
+
+```text
+Lexicon.reload - reload Lexicon, updating the config in the process
+```
+
+---
+
+# Configuration
+
 ## Single Response Chat Commands
 
 Structure:
