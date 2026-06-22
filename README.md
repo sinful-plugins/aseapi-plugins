@@ -1,8 +1,5 @@
-# Sinful Plugins
+# <img src="https://raw.githubusercontent.com/sinful-plugins/.github/main/resources/sinfulPlugins.svg" alt="Sinful Plugins" height="45" valign="middle"> Sinful Plugins
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sinful-plugins/.github/main/resources/sinfulPlugins.svg" alt="Sinful Plugins" />
-</p>
 Free Ark: Survival Evolved server plugins.
 
 > [!NOTE]
