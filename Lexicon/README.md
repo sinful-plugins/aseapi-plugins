@@ -10,13 +10,13 @@
 - Console:
 
 ```text
-Lexicon.reload - reload Lexicon, updating the config in the process
+Lexicon.reload - reload Lexicon's config
 ```
 
 - RCON:
 
 ```text
-Lexicon.reload - reload Lexicon, updating the config in the process
+Lexicon.reload - reload Lexicon's config
 ```
 
 ---
@@ -24,6 +24,7 @@ Lexicon.reload - reload Lexicon, updating the config in the process
 # Configuration
 
 ## Single Response Chat Commands
+These are put under the `commands` attribute
 
 Structure:
 
@@ -60,6 +61,7 @@ Structure:
 ```
 
 ## Aliases
+These are put under the `aliases` attribute
 
 Structure:
 
