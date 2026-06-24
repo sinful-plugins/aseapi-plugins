@@ -7,13 +7,7 @@
 
 # Lexicon Commands
 
-- Console:
-
-```text
-Lexicon.reload - reload Lexicon's config
-```
-
-- RCON:
+- Console / RCON:
 
 ```text
 Lexicon.reload - reload Lexicon's config
