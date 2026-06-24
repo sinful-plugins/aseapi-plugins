@@ -13,4 +13,5 @@ Free Ark: Survival Evolved server plugins.
 - [**PlayerInfo**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/PlayerInfo) - Exposes a player's in game info and allows display thru chat commands and rcon
 - [**WipeManager**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/WipeManager) - A simple wipe manager that wipes all but the admin's stuff, good for soft wipes
 - RaidControl (WIP) - Control what can and cannot be done during PVP
-- AutoAssist (WIP) - Simple assistant for players and admins
+- QOLAssist (WIP) - Simple assistant for players and admins
+- OmniUtilities (WIP) - Aims to merge PlayerUtilities, DinoUtilities, Dino Color Command and more into 1 plugin
