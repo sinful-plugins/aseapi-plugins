@@ -6,16 +6,10 @@
 
 # PlayerInfo Commands
 
-- Console:
+- Console / RCON:
 
 ```text
-PlayerInfo.reload - reload PlayerInfo, updating the config in the process
-```
-
-- RCON:
-
-```text
-PlayerInfo.reload - reload PlayerInfo, updating the config in the process
+PlayerInfo.reload - reload PlayerInfo's config
 ```
 
 ---
@@ -72,7 +66,7 @@ Structure:
     "arguments": [], // arguments, only accepts "{steamId}" for now
     "scope": "map", // scope of the command
     "format": "{\"charName\": \"{charName}\", \"steamId\": \"{steamId}\", \"tribeName\": \"{tribeName}\", \"tribeId\": \"{tribeId}\", \"playerId\": \"{playerId}\"}", // the format for each player entry
-    "formatType": "json", // allows for JSON structure reply to the RCON which will apply some formatting
+    "formatType": "json", // "json" or "text", allows for JSON structure
     "delimiter": ", ",
     "reply": "[{format}]\n\n",
     "defaultResponse": "No Players Online"
