@@ -9,9 +9,11 @@ Free Ark: Survival Evolved server plugins.
 
 # Currently available plugins
 
-- [**Lexicon**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/Lexicon) - Manage simple message reply commands and command aliases thru one plugin
-- [**PlayerInfo**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/PlayerInfo) - Exposes a player's in game info and allows display thru chat commands and rcon
-- [**WipeManager**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/WipeManager) - A simple wipe manager that wipes all but the admin's stuff, good for soft wipes
-- RaidControl (WIP) - Control what can and cannot be done during PVP
-- QOLAssist (WIP) - Simple assistant for players and admins
-- OmniUtilities (WIP) - Aims to merge PlayerUtilities, DinoUtilities, Dino Color Command and more into 1 plugin
+| Plugin                                                                                    | Description                                                                                                             |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [**Lexicon**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/Lexicon)         | - Add simple single response chat commands<br>- Manage command aliases                                                  |
+| [**PlayerInfo**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/PlayerInfo)   | - Gets a player's in game info and allows display thru chat commands and rcon                                           |
+| [**WipeManager**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/WipeManager) | - Allows for wiping of everything but the admin's stuff<br>- Good for soft wipes                                        |
+| RaidControls (WIP)                                                                        | - Control what can and cannot be done during PVP                                                                        |
+| QOLAssistant (WIP)                                                                        | - Simple assistant for players and admins<br>- Merges FastRejoin, ByeByeCorrupted and AutoAwesomeSpyglass into 1 plugin |
+| OmniUtilities (WIP)                                                                       | - Merges PlayerUtilities, DinoUtilities, Dino Color Command and more into 1 plugin                                      |
