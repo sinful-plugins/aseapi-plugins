@@ -11,7 +11,8 @@ Free Ark: Survival Evolved server plugins.
 
 ## [**Lexicon**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/Lexicon)
 
-- Add simple single response chat commands<br>- Manage command aliases
+- Add simple single response chat commands
+- Manage command aliases
 
 ---
 
@@ -30,19 +31,30 @@ Free Ark: Survival Evolved server plugins.
 
 ## RaidControls (WIP)
 
-- Control what can and cannot be done during PVP
+- Restrict what can be done during PVP
+- Block structure placements
+- Block weapon equips
+- Block chat command usage
+- Block teleports
+- Block map transfers
+- Block tribe state changes
 
 ---
 
 ## QOLAssistant (WIP)
 
-- Simple assistant for players and admins
 - Merges FastRejoin, ByeByeCorrupted and AutoAwesomeSpyglass into 1 plugin
+- Notify players if a dino is not a knockout tame
+- Auto engram unlocks
+- Toggle damage numbers
 
 ---
 
 ## OmniUtilities (WIP)
 
-- Merges PlayerUtilities, DinoUtilities, Dino Color Command and more into 1 plugin
+- Merges PlayerUtilities, DinoUtilities
+- Merges Dino Color Command
+- Merges Tribe Tracker and Dino Tracker
+- Implement admin console commands into chat for easy use
 
 ---
