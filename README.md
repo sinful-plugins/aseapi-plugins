@@ -46,6 +46,7 @@ Free Ark: Survival Evolved server plugins.
 - Merges FastRejoin, ByeByeCorrupted and AutoAwesomeSpyglass into 1 plugin
 - Notify players if a dino is not a knockout tame
 - Auto engram unlocks
+- Auto run console command on login
 - Toggle damage numbers
 
 ---
