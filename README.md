@@ -29,7 +29,7 @@ Free Ark: Survival Evolved server plugins.
 
 ---
 
-## RaidControls (WIP)
+## [**RaidControls**](https://github.com/sinful-plugins/aseapi-plugins/tree/main/RaidControls)
 
 - Restrict what can be done during PVP
 - Block structure placements
