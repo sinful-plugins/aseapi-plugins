@@ -1,0 +1,160 @@
+{
+  "bypassGroups": [
+    "Admins"
+  ],
+  "pvpMarked": {
+    "enabled": true,
+    "timeout": 2,
+    "timeoutUnit": "minutes",
+    "notification": {
+      "enabled": true,
+      "duration": 10,
+      "durationUnit": "seconds",
+      "size": 2,
+      "message": {
+        "onStart": {
+          "color": {
+            "red": 1,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          }
+        },
+        "onEnd": {
+          "color": {
+            "red": 0,
+            "green": 1,
+            "blue": 0,
+            "alpha": 1
+          }
+        }
+      }
+    }
+  },
+  "restrictions": {
+    "raider": {
+      "dropControl": {
+        "enabled": true,
+        "count": 5,
+        "interval": 2,
+        "intervalUnit": "minutes"
+      },
+      "blocks": {
+        "enabled": true,
+        "commands": [
+          "/bags"
+        ],
+        "structures": [
+          "Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter'"
+        ],
+        "weapons": [
+          "Blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'"
+        ],
+        "teleports": {
+          "dino": true,
+          "player": false
+        },
+        "tribe": {
+          "join": true,
+          "leave": true
+        },
+        "transfers": {
+          "out": true
+        },
+        "notification": {
+          "enabled": true,
+          "duration": 10,
+          "durationUnit": "seconds",
+          "size": 2,
+          "color": {
+            "red": 1,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          }
+        }
+      }
+    },
+    "raided": {
+      "dropControl": {
+        "enabled": true,
+        "count": 5,
+        "interval": 2,
+        "intervalUnit": "minutes"
+      },
+      "blocks": {
+        "enabled": true,
+        "commands": [
+          "/bags"
+        ],
+        "structures": [
+          "Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter'"
+        ],
+        "weapons": [
+          "Blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'"
+        ],
+        "teleports": {
+          "dino": true,
+          "player": false
+        },
+        "tribe": {
+          "join": true,
+          "leave": true
+        },
+        "transfers": {
+          "out": true
+        },
+        "notification": {
+          "enabled": true,
+          "duration": 10,
+          "durationUnit": "seconds",
+          "size": 2,
+          "color": {
+            "red": 1,
+            "green": 0,
+            "blue": 0,
+            "alpha": 1
+          }
+        }
+      }
+    }
+  },
+  "messages": {
+    "pvpMarkOnStart": "You've been placed under PVP restrictions for the next {duration}{unit}",
+    "pvpMarkOnEnd": "Your PVP restrictions have been lifted",
+    "pvpMarkNoPVP": "You're not in PVP",
+    "pvpMarkStatus": "{duration} till {state} PVP restrictions are lifted",
+    "dropStatusReady": "You can drop up to {max} items right now",
+    "dropStatusRemaining": "You can drop {remaining} more item(s) right now",
+    "dropStatusWait": "You've hit your drop limit. You can drop again in {duration}",
+    "dropStatusInactive": "Drop control is not currently active for you",
+    "commandBlocked": "You cant use the command \"{command}\" during PVP",
+    "structureBlocked": "You cant place a {structure} during PVP",
+    "weaponBlocked": "You cant equip your {weapon} during PVP",
+    "teleportDinoBlocked": "You cant teleport your dinos during PVP",
+    "teleportPlayerBlocked": "You cant teleport during PVP",
+    "createTribeBlocked": "You cant create a tribe during PVP",
+    "joinTribeBlocked": "You cant join a tribe during PVP",
+    "inviteTribeBlocked": "You cant invite a new tribe member during PVP",
+    "leaveTribeBlocked": "You cant leave your tribe during PVP",
+    "kickTribeBlocked": "You cant kick a tribe member during PVP",
+    "transferOutBlocked": "You cant transfer out of the map during PVP",
+    "itemDropBlocked": "You cant drop items so quickly during PVP"
+  },
+  "primalItemReplacements": {
+    "PrimalItemWeaponAttachment_": "Attachment",
+    "PrimalItemStructure_": "Structure",
+    "PrimalItemConsumable_": "Consumable",
+    "PrimalItemResource_": "Resource",
+    "PrimalItemArmor_": "Armor",
+    "PrimalItemAmmo_": "Ammo",
+    "PrimalItemSkin_": "Skin",
+    "PrimalItemDye_": "Dye",
+    "PrimalItemTrophy_": "Trophy",
+    "PrimalItemArtifact_": "Artifact",
+    "PrimalItem_Weapon": "Weap",
+    "PrimalItem_Recipe": "Recipe",
+    "PrimalItem_Spawner": "Spawner",
+    "PrimalItem_": ""
+  }
+}
