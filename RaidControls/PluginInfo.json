@@ -1,4 +1,5 @@
 {
   "FullName": "Raid Controls",
-  "Description": "Control what players can and cannot do during a raid!"
+  "Description": "Control what players can and cannot do during a raid!",
+  "Version": 1.1
 }

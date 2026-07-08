@@ -10,7 +10,7 @@
 
 ---
 
-- Console:
+- Console / RCON:
 ```text
 rc.reload - reloads the config
 ```
@@ -26,48 +26,4 @@ rc.reload - reloads the config
 ---
 
 # Configuration
-```jsonc
-{
-  "dropControl": {
-    "enabled": true, // enables drop controls, allows prevention of popcorn spoiling
-    "count": 5,
-    "interval": 2,
-    "intervalUnit": "minutes" // seconds, minutes, hours
-  },
-  "blocks": {
-    "enabled": true, // enables feature blocks
-    "commands": [ // chat commands
-      "/bags" 
-    ],
-    "structures": [ // structures, you can search for the item bp online and paste it in
-      "Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter'"
-    ],
-    "weapons": [ // weapons, you can search fore the item bp online and paste it in, or use /currentweapon
-      "Blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'"
-    ],
-    "teleports": { // blocks tps, AwesomeTeleporters can be blocked using this to prevent exploitative PVP stuff
-      "dino": true,
-      "player": false
-    },
-    "tribe": { // prevent people from leaving or join tribes to bypass the restrictions
-      "join": true,
-      "leave": true
-    },
-    "transfers": { // block people from transferring out of the map with all their stuff
-      "out": true
-    },
-    "notification": { // notification settings
-      "enabled": true,
-      "duration": 10,
-      "durationUnit": "seconds",
-      "size": 2,
-      "color": {
-        "red": 1,
-        "green": 0,
-        "blue": 0,
-        "alpha": 1
-      }
-    }
-  }
-}
-```
+Read [explaination](https://github.com/sinful-plugins/aseapi-plugins/blob/main/RaidControls/config.explained.jsonc)

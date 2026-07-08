@@ -30,13 +30,4 @@ wm.setday <day number> - sets the server's day count
 ---
 
 # Configuration
-
-```jsonc
-{
-  "destroyPerTick": 500, // number of actors to destroy per tick
-  "tickInterval": 1, // tick interval in seconds
-  "saveBeforeWipe": true, // save the world before wiping
-  "allowedGroups": ["Admins"], // permission groups allowed to do the commands
-  "ignoredGroups": ["Admins"], // tribes with these permission groups gets skipped when wiping
-}
-```
+Read [explaination](https://github.com/sinful-plugins/aseapi-plugins/blob/main/Lexicon/config.explained.jsonc)
