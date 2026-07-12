@@ -14,9 +14,14 @@
       "reply": "Players Online:\n{format}",
       "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
-      "permissions": ["Default"],
+      "permissions": [
+        "Default"
+      ],
       "defaultResponse": "No Players Online",
-      "aliases": ["/online", "/who"]
+      "aliases": [
+        "/online",
+        "/who"
+      ]
     },
     "/steamIds": {
       "scope": "map",
@@ -25,9 +30,13 @@
       "reply": "Player SteamIds:\n{format}",
       "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
-      "permissions": ["Admins"],
+      "permissions": [
+        "Admins"
+      ],
       "defaultResponse": "No Players Online",
-      "aliases": ["/sids"]
+      "aliases": [
+        "/sids"
+      ]
     },
     "/playerTribes": {
       "scope": "map",
@@ -36,9 +45,13 @@
       "reply": "Player Tribes:\n{format}",
       "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
-      "permissions": ["Admins"],
+      "permissions": [
+        "Admins"
+      ],
       "defaultResponse": "No Players Online",
-      "aliases": ["/tribes"]
+      "aliases": [
+        "/tribes"
+      ]
     },
     "/whoami": {
       "scope": "player",
@@ -47,9 +60,13 @@
       "reply": "{format}",
       "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
-      "permissions": ["Default"],
+      "permissions": [
+        "Default"
+      ],
       "defaultResponse": "Error Fetching Info",
-      "aliases": ["/myInfo"]
+      "aliases": [
+        "/myInfo"
+      ]
     },
     "/tribeInfo": {
       "scope": "player",
@@ -58,9 +75,13 @@
       "reply": "{format}",
       "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
-      "permissions": ["Default"],
+      "permissions": [
+        "Default"
+      ],
       "defaultResponse": "You Are Not In A Tribe!",
-      "aliases": ["/myTribe"]
+      "aliases": [
+        "/myTribe"
+      ]
     }
   },
   "rconCommands": {
@@ -101,7 +122,9 @@
       "defaultResponse": "No Players Online"
     },
     "getPlayerTribe": {
-      "arguments": ["{steamId}"],
+      "arguments": [
+        "{steamId}"
+      ],
       "scope": "player",
       "format": "Tribe: {tribeName}",
       "formatType": "text",
@@ -110,7 +133,9 @@
       "defaultResponse": "Player not found or not in a tribe."
     },
     "getPlayerTribeId": {
-      "arguments": ["{steamId}"],
+      "arguments": [
+        "{steamId}"
+      ],
       "scope": "player",
       "format": "Tribe ID: {tribeId}",
       "formatType": "text",
@@ -119,7 +144,9 @@
       "defaultResponse": "Player not found or not in a tribe."
     },
     "getPlayerTribeInfo": {
-      "arguments": ["{steamId}"],
+      "arguments": [
+        "{steamId}"
+      ],
       "scope": "player",
       "format": "Tribe: {tribeName} ({tribeId})",
       "formatType": "text",
@@ -128,7 +155,9 @@
       "defaultResponse": "Player not found or not in a tribe."
     },
     "getPlayerInfos": {
-      "arguments": ["{steamId}"],
+      "arguments": [
+        "{steamId}"
+      ],
       "scope": "player",
       "format": "{\"charName\": \"{charName}\", \"steamId\": \"{steamId}\", \"tribeName\": \"{tribeName}\", \"tribeId\": \"{tribeId}\", \"playerId\": \"{playerId}\"}",
       "formatType": "json",

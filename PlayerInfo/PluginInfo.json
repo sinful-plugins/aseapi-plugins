@@ -1,4 +1,5 @@
 {
   "FullName": "Player Info",
-  "Description": "Add player information chat and rcon commands"
+  "Description": "Add player information chat and rcon commands",
+  "Version": 1.0
 }
