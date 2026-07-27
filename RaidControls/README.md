@@ -26,4 +26,4 @@ rc.reload - reloads the config
 ---
 
 # Configuration
-Read [explaination](https://github.com/sinful-plugins/aseapi-plugins/blob/main/RaidControls/config.explained.jsonc)
+Read [explanation](https://github.com/sinful-plugins/aseapi-plugins/blob/main/RaidControls/config.explained.jsonc)

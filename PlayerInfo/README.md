@@ -31,4 +31,4 @@ Default values for player info fields
 ```
 
 ## Chat commands
-Read [explaination](https://github.com/sinful-plugins/aseapi-plugins/blob/main/PlayerInfo/config.explained.jsonc)
+Read [explanation](https://github.com/sinful-plugins/aseapi-plugins/blob/main/PlayerInfo/config.explained.jsonc)

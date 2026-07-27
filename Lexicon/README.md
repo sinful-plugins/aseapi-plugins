@@ -16,4 +16,4 @@ Lexicon.reload - reload Lexicon's config
 ---
 
 # Configuration
-Read [explaination](https://github.com/sinful-plugins/aseapi-plugins/blob/main/Lexicon/config.explained.jsonc)
+Read [explanation](https://github.com/sinful-plugins/aseapi-plugins/blob/main/Lexicon/config.explained.jsonc)
