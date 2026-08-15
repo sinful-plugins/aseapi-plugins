@@ -50,12 +50,6 @@
           */
           "Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter'"
         ],
-        "weapons": [ // weapon equips
-          /*
-          weapons, you can search for the item bp online and paste it in
-          */
-          "Blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'"
-        ],
         "teleports": { // blocks tps, AwesomeTeleporters can be blocked using this to prevent exploitative PVP stuff
           "dino": true,
           "player": false

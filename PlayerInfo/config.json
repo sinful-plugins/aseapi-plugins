@@ -12,7 +12,7 @@
       "format": "{charName}",
       "delimiter": ", ",
       "reply": "Players Online:\n{format}",
-      "author": "Server",
+      "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
       "permissions": [
         "Default"
@@ -28,7 +28,7 @@
       "format": "{charName} [{tribeName}]: {steamId}",
       "delimiter": "\n",
       "reply": "Player SteamIds:\n{format}",
-      "author": "Server",
+      "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
       "permissions": [
         "Admins"
@@ -43,7 +43,7 @@
       "format": "{charName}: {tribeName}",
       "delimiter": "\n",
       "reply": "Player Tribes:\n{format}",
-      "author": "Server",
+      "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
       "permissions": [
         "Admins"
@@ -58,7 +58,7 @@
       "format": "{charName} of tribe \"{tribeName}\"",
       "delimiter": "",
       "reply": "{format}",
-      "author": "Server",
+      "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
       "permissions": [
         "Default"
@@ -73,7 +73,7 @@
       "format": "Tribe: {tribeName} ({tribeId})",
       "delimiter": "",
       "reply": "{format}",
-      "author": "Server",
+      "author": "Sinfuls [RXP] Cluster",
       "responseType": "ClientChat",
       "permissions": [
         "Default"

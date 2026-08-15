@@ -47,9 +47,6 @@
         "structures": [
           "Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter'"
         ],
-        "weapons": [
-          "Blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'"
-        ],
         "teleports": {
           "dino": true,
           "player": false
@@ -89,9 +86,6 @@
         ],
         "structures": [
           "Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter'"
-        ],
-        "weapons": [
-          "Blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'"
         ],
         "teleports": {
           "dino": true,
