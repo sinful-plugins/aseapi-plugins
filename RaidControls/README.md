@@ -2,7 +2,6 @@
 
 - Restrict what can be done during PVP
 - Block structure placements
-- Block weapon equips
 - Block chat command usage
 - Block teleports
 - Block map transfers

@@ -33,7 +33,6 @@ Free Ark: Survival Evolved server plugins.
 
 - Restrict what can be done during PVP
 - Block structure placements
-- Block weapon equips
 - Block chat command usage
 - Block teleports
 - Block map transfers
@@ -43,11 +42,14 @@ Free Ark: Survival Evolved server plugins.
 
 ## QOLAssistant (WIP)
 
-- Merges FastRejoin, ByeByeCorrupted and AutoAwesomeSpyglass into 1 plugin
-- Notify players if a dino is not a knockout tame
+- No structure dmg from corrupted dinos
+- Fast rejoin
+- Notify players of a non knockout tame
+- Post knockout temporary immunity
 - Auto engram unlocks
-- Auto run console command on login
-- Toggle damage numbers
+- Damage number toggling
+- Admin tribe damage immunity
+- Chat cooldown removal
 
 ---
 
