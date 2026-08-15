@@ -17,7 +17,6 @@ rc.reload - reloads the config
 - Chat:
 ```text
 /rc.reload - reloads the config (admins only)
-/currentweapon - gives you the current weapon that you're equipping for configuration (admins only)
 /pvpstatus - tells you how long till your PVP restrictions are lifted
 /dropstatus - tells you how drop control is affecting you
 ```
