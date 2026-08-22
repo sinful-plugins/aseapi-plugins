@@ -1,15 +1,15 @@
 {
-  "bypassGroups": [ // groups that are totally bypassed
+  "bypassGroups": [ // groups that are bypassed from getting pvp marked
     "Admins"
   ],
   "pvpMarked": {
-    "enabled": true, // pvp marker, this is the crux of the entire process
-    "timeout": 2, // how long the restriction is for
-    "timeoutUnit": "minutes", // time unit of the restriction, seconds, minutes, hours
+    "enabled": true, // if this equals false, the entire system falls apart except for the offline damage rates
+    "timeout": 2, // how long the pvp mark lasts for
+    "timeoutUnit": "minutes", // the duration unit the pvp mark lasts for
     "notification": {
-      "enabled": true, // notify players that they're under pvp restrictions
-      "duration": 10, // how long the notification is for
-      "durationUnit": "seconds", // notification time unit
+      "enabled": true, // notifies if the tribe is placed under pvp mark
+      "duration": 10, // notification duration
+      "durationUnit": "seconds", // notification duration unit
       "size": 2, // notification size
       "message": { // message colors
         "onStart": {
@@ -32,36 +32,33 @@
     }
   },
   "restrictions": {
-    "raider": { // raiders are those who: do dmg to structures and characters / take dmg from turrets
-      "dropControl": { // enable drop control to prevent people from dropping all their stuff to spoil the raid
+    "raider": { // restrictions for the raider
+      "dropControl": { // restricts how many items can be dropped when pvp marked
         "enabled": true,
-        "count": 5, // how many items can be dropped
-        "interval": 2, // time window
-        "intervalUnit": "minutes" // time window unit
+        "count": 5,
+        "interval": 2,
+        "intervalUnit": "minutes"
       },
-      "blocks": {
-        "enabled": true, // block certain things
-        "commands": [ // in game chat commands
+      "blocks": { // other restrictions when pvp marked
+        "enabled": true,
+        "commands": [ // chat commands from other plugins
           "/bags"
         ],
-        "structures": [ // structure placements
-          /*
-          structures, you can search for the item bp online and paste it in
-          */
+        "structures": [ // structures that can be placed
           "Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter'"
         ],
-        "teleports": { // blocks tps, AwesomeTeleporters can be blocked using this to prevent exploitative PVP stuff
+        "teleports": { // what can be teleported
           "dino": true,
           "player": false
         },
-        "tribe": { // prevent people from leaving or join tribes to bypass the restrictions
+        "tribe": { // controls if players can join or leave the tribe
           "join": true,
           "leave": true
         },
-        "transfers": { // block people from transferring out of the map with all their stuff
+        "transfers": { // controls if players can leave the map
           "out": true
         },
-        "notification": { // blocked action notification settings
+        "notification": { // controls the notification message that those actions are blocked
           "enabled": true,
           "duration": 10,
           "durationUnit": "seconds",
@@ -90,9 +87,6 @@
         "structures": [
           "Blueprint'/Game/Mods/AwesomeTeleporters/Blueprints/Teleporter/PrimalItem_AwesomeTeleporters_Teleporter.PrimalItem_AwesomeTeleporters_Teleporter'"
         ],
-        "weapons": [
-          "Blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'"
-        ],
         "teleports": {
           "dino": true,
           "player": false
@@ -119,7 +113,17 @@
       }
     }
   },
-  "messages": { // messages gets editted here if you wanna change it
+  "offlineDamageRates": { // offline damage rates, <1 and its decreased,>1 and its increased
+    "dmgIn": { // damage intake multipliers
+      "structures": 0.8,
+      "dinos": 0.8,
+      "players": 0.8
+    },
+    "dmgOut": { // damage output multipliers
+      "turrets": 2.0
+    }
+  },
+  "messages": {
     "pvpMarkOnStart": "You've been placed under PVP restrictions for the next {duration}{unit}",
     "pvpMarkOnEnd": "Your PVP restrictions have been lifted",
     "pvpMarkNoPVP": "You're not in PVP",

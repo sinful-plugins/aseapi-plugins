@@ -113,6 +113,16 @@
       }
     }
   },
+  "offlineDamageRates": {
+    "dmgIn": {
+      "structures": 0.8,
+      "dinos": 0.8,
+      "players": 0.8
+    },
+    "dmgOut": {
+      "turrets": 2.0
+    }
+  },
   "messages": {
     "pvpMarkOnStart": "You've been placed under PVP restrictions for the next {duration}{unit}",
     "pvpMarkOnEnd": "Your PVP restrictions have been lifted",
